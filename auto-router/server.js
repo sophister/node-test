@@ -12,7 +12,7 @@ var routerIndex = require('./router-index.js');
 
 var app = express();
 
-app.use('/', routerIndex);
+app.use('/node', routerIndex);
 
 app.use( function(err, req, res, next ){
     res.send( err.message );
