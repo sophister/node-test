@@ -1,0 +1,29 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "test node features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophister/node-test.git"
+  },
+  "keywords": [
+    "node.js",
+    "es6",
+    "es7"
+  ],
+  "author": "Jess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophister/node-test/issues"
+  },
+  "homepage": "https://github.com/sophister/node-test#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "co": "^4.6.0",
+    "express": "^4.13.3"
+  }
+}
