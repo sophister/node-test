@@ -5,10 +5,13 @@
 
 'use strict';
 
+console.info('BookAction required');
+
 class BookAction {
 
     list(req, res, next){
         res.send('BookAction.list');
+        console.info('handled by process:' + process.pid);
     }
 
     detail(req, res, next){
